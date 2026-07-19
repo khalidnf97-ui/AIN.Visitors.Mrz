@@ -1,18 +1,16 @@
 {
   "name": "ain-visitors-mrz-ts",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "2.0.0",
+  "description": "TypeScript implementation and canonical contract for AIN.Visitors MRZ parser",
+  "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
-    "test": "npx tsx test.ts"
+    "test": "ts-node test.ts"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "dependencies": {},
   "devDependencies": {
-    "@types/node": "^20.1.1",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.0.2"
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.0",
+    "@types/node": "^20.0.0"
   }
 }
