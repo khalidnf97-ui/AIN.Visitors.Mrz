@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AIN.Visitors.Mrz")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bf0b49726aea102ac5fdcb63e1c2f746786df2e1")]
 [assembly: System.Reflection.AssemblyProductAttribute("AIN.Visitors.Mrz")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AIN.Visitors.Mrz")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
