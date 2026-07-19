@@ -1,0 +1,77 @@
+
+==============================================
+TD1
+==============================================
+
+# Germany national ID (nPA)  (MUSTERMANN ERIKA, D)
+IDD<<T220001293<<<<<<<<<<<<<<<
+8807124M3101012D<<<<<<<<<<<<<0
+MUSTERMANN<<ERIKA<<<<<<<<<<<<<
+
+# Netherlands ID card  (DE BRUIJN WILLEKE LISELOTTE, NLD)
+IDNLDSPECI20142<<<<<<<<<<<<<<<
+9203055F2806309NLD<<<<<<<<<<<8
+DE<BRUIJN<<WILLEKE<LISELOTTE<<
+
+# Spain DNI 3.0  (ESPANOL ESPANOLA CARMEN, ESP)
+IDESPBAA0005895<<<<<<<<<<<<<<<
+9001011M3003150ESP<<<<<<<<<<<8
+ESPANOL<ESPANOLA<<CARMEN<<<<<<
+
+# Sweden national ID card  (SPECIMEN SVEA, SWE)
+I<SWEXA00000023<<<<<<<<<<<<<<<
+8208215F2701013SWE<<<<<<<<<<<6
+SPECIMEN<<SVEA<<<<<<<<<<<<<<<<
+
+# Switzerland identity card  (SCHWEIZER HELVETIA, CHE)
+IDCHES1A00D27<7<<<<<<<<<<<<<<<
+9508015F3302026CHE<<<<<<<<<<<2
+SCHWEIZER<<HELVETIA<<<<<<<<<<<
+
+==============================================
+TD2
+==============================================
+
+# Romania national ID (TD2)  (POPESCU ANDREI ION, ROU)
+I<ROUPOPESCU<<ANDREI<ION<<<<<<<<<<<<
+ZZ00012348ROU9005204M3005202<<<<<<<4
+
+# Germany old-type ID (TD2)  (MUSTERFRAU MARIA, D)
+I<D<<MUSTERFRAU<<MARIA<<<<<<<<<<<<<<
+1220001231D<<8504098F2804095<<<<<<<0
+
+# France old CNI (TD2)  (MARTIN JEAN PIERRE, FRA)
+I<FRAMARTIN<<JEAN<PIERRE<<<<<<<<<<<<
+050001SPE1FRA7806119M2806114<<<<<<<8
+
+# Moldova ID card (TD2)  (LUPU ELENA, MDA)
+I<MDALUPU<<ELENA<<<<<<<<<<<<<<<<<<<<
+A012345678MDA9311309F2901019<<<<<<<2
+
+# US Format-B visa (MRV-B/TD2)  (TRAVELLER SAMPLE, USA)
+V<USATRAVELLER<<SAMPLE<<<<<<<<<<<<<<
+V123456781GBR8001014M2701013<<<<<<<2
+
+==============================================
+TD3
+==============================================
+
+# India passport  (SPECIMEN KUMAR G, IND)
+P<INDSPECIMEN<<KUMAR<G<<<<<<<<<<<<<<<<<<<<<<
+Z9999999<0IND8505246M2301011<<<<<<<<<<<<<<00
+
+# Utopia specimen passport  (ERIKSSON ANNA MARIA, UTO)
+P<UTOERIKSSON<<ANNA<MARIA<<<<<<<<<<<<<<<<<<<
+L898902C36UTO7408122F1204159<<<<<<<<<<<<<<08
+
+# USA passport  (SPECIMEN JOHN PAUL, USA)
+P<USASPECIMEN<<JOHN<PAUL<<<<<<<<<<<<<<<<<<<<
+T012345671USA9102158M3002153<<<<<<<<<<<<<<02
+
+# United Kingdom passport  (SPECIMEN JANE ELIZABETH, GBR)
+P<GBRSPECIMEN<<JANE<ELIZABETH<<<<<<<<<<<<<<<
+5340127AB3GBR8807308F2907309<<<<<<<<<<<<<<06
+
+# Saudi Arabia passport  (ALSAMPLE AHMED, SAU)
+P<SAUALSAMPLE<<AHMED<<<<<<<<<<<<<<<<<<<<<<<<
+A1234567<6SAU9501016M3201015<<<<<<<<<<<<<<04

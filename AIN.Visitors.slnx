@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="AIN.Visitors.Demo/AIN.Visitors.Demo.csproj" />
+  <Project Path="AIN.Visitors.Mrz.Tests/AIN.Visitors.Mrz.Tests.csproj" />
+  <Project Path="AIN.Visitors.Mrz/AIN.Visitors.Mrz.csproj" />
+</Solution>

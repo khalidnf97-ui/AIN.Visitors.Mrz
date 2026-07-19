@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="812cad2e-99e1-4f7e-95de-326ac8eb8f93" name="khaled@KHALID-WALEED 2026-07-14 10:37:56" runUser="KHALID-WALEED\khaled" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2026-07-14T10:37:56.6788779+03:00" queuing="2026-07-14T10:37:56.6788787+03:00" start="2026-07-14T10:37:53.4270926+03:00" finish="2026-07-14T10:37:56.7770186+03:00" />
+  <TestSettings name="default" id="8d8531c2-04d9-4af5-9565-52da661825d4">
+    <Deployment runDeploymentRoot="khaled_KHALID-WALEED_2026-07-14_10_37_56" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="fe4da0da-e15d-4175-9ddd-76fae2961f3d" testId="46c3c226-d201-5a9e-52c4-fec5e7dcf662" testName="AIN.Visitors.Mrz.Tests.MrzComprehensiveTests.Parse_ValidTd1_ShouldBeValidAndExtractDocumentNumber" computerName="KHALID-WALEED" duration="00:00:00.0012010" startTime="2026-07-14T10:37:56.6087983+03:00" endTime="2026-07-14T10:37:56.6089189+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fe4da0da-e15d-4175-9ddd-76fae2961f3d" />
+    <UnitTestResult executionId="dc169e20-64e1-4126-86ac-bbe9dd3144f1" testId="f19e933b-7343-cc84-5589-8ca61e656d55" testName="AIN.Visitors.Mrz.Tests.MrzComprehensiveTests.Parse_LowercaseCharacters_ShouldBeRejectedOrConverted" computerName="KHALID-WALEED" duration="00:00:00.4017090" startTime="2026-07-14T10:37:56.0990728+03:00" endTime="2026-07-14T10:37:56.5183660+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dc169e20-64e1-4126-86ac-bbe9dd3144f1" />
+    <UnitTestResult executionId="dd3cf410-1d50-41f0-9666-13b9d9a2902d" testId="42d9ead0-8cdd-9105-2b2a-beb2c469ed7b" testName="AIN.Visitors.Mrz.Tests.MrzComprehensiveTests.Parse_ImpossibleExpiryDate_ShouldRejectDocument" computerName="KHALID-WALEED" duration="00:00:00.0002762" startTime="2026-07-14T10:37:56.6901052+03:00" endTime="2026-07-14T10:37:56.6901693+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dd3cf410-1d50-41f0-9666-13b9d9a2902d" />
+    <UnitTestResult executionId="6cab2c6b-26d3-4a4c-8dad-9ea41404f495" testId="10521011-77bd-aff9-967e-8cf806791121" testName="AIN.Visitors.Mrz.Tests.MrzComprehensiveTests.Parse_ImpossibleBirthDate_ShouldRejectDocument" computerName="KHALID-WALEED" duration="00:00:00.0004368" startTime="2026-07-14T10:37:56.6095624+03:00" endTime="2026-07-14T10:37:56.6096877+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6cab2c6b-26d3-4a4c-8dad-9ea41404f495" />
+    <UnitTestResult executionId="7a0ef92e-a940-4e62-9793-0eba41809772" testId="bb9a39d4-bf76-034b-8c33-744178c3eb96" testName="AIN.Visitors.Mrz.Tests.MrzComprehensiveTests.Parse_FillerHandling_ShouldStripFillersCorrectly" computerName="KHALID-WALEED" duration="00:00:00.0007716" startTime="2026-07-14T10:37:56.6910091+03:00" endTime="2026-07-14T10:37:56.6913531+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7a0ef92e-a940-4e62-9793-0eba41809772" />
+    <UnitTestResult executionId="74dea55c-abec-403f-b84e-2e532885e1b8" testId="1d298a72-17d0-f2ba-36a5-6e5a82ba8d42" testName="AIN.Visitors.Mrz.Tests.MrzComprehensiveTests.Parse_SpacesInsideMrzLines_ShouldBeRejected" computerName="KHALID-WALEED" duration="00:00:00.0001686" startTime="2026-07-14T10:37:56.6908010+03:00" endTime="2026-07-14T10:37:56.6908585+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="74dea55c-abec-403f-b84e-2e532885e1b8" />
+    <UnitTestResult executionId="cb02e587-fe43-4a95-887c-6b85d3ab5536" testId="6f967855-a5bf-34bd-c5af-67e64728a4a1" testName="AIN.Visitors.Mrz.Tests.MrzComprehensiveTests.Parse_ValidTd2_ShouldBeValidAndExtractNationality" computerName="KHALID-WALEED" duration="00:00:00.0006190" startTime="2026-07-14T10:37:56.6103483+03:00" endTime="2026-07-14T10:37:56.6104576+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cb02e587-fe43-4a95-887c-6b85d3ab5536" />
+    <UnitTestResult executionId="7fa07dd8-9294-4d4e-a69b-692d9603e6ee" testId="f5df0a67-f5f5-7f56-8f86-69ed5cae285f" testName="AIN.Visitors.Mrz.Tests.MrzComprehensiveTests.Parse_InvalidCompositeCheckDigit_ShouldFailOverallValidation" computerName="KHALID-WALEED" duration="00:00:00.0003698" startTime="2026-07-14T10:37:56.6107334+03:00" endTime="2026-07-14T10:37:56.6108474+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7fa07dd8-9294-4d4e-a69b-692d9603e6ee" />
+    <UnitTestResult executionId="8e29d36d-8c2a-4bfb-b159-86780c9eab63" testId="05b331ed-f32a-194f-e4ed-79d87418a658" testName="AIN.Visitors.Mrz.Tests.MrzComprehensiveTests.Parse_IllegalCharacters_ShouldNotBeTreatedAsZeroOrFiller" computerName="KHALID-WALEED" duration="00:00:00.0003094" startTime="2026-07-14T10:37:56.6893138+03:00" endTime="2026-07-14T10:37:56.6894493+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8e29d36d-8c2a-4bfb-b159-86780c9eab63" />
+    <UnitTestResult executionId="e40b4804-1481-42bd-9f65-d5174b8b57ff" testId="9152a88f-a73f-a023-9eba-3450012d1360" testName="AIN.Visitors.Mrz.Tests.MrzComprehensiveTests.Parse_MissingNameSeparators_ShouldHandleCorrectly" computerName="KHALID-WALEED" duration="00:00:00.0018545" startTime="2026-07-14T10:37:56.6061080+03:00" endTime="2026-07-14T10:37:56.6064207+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e40b4804-1481-42bd-9f65-d5174b8b57ff" />
+    <UnitTestResult executionId="90b556bc-5ab0-4b37-aecb-a29d0418d511" testId="c0170732-d07d-4f55-4b00-becb20d0186d" testName="AIN.Visitors.Mrz.Tests.MrzComprehensiveTests.Parse_InvalidLineCount_ShouldFail" computerName="KHALID-WALEED" duration="00:00:00.0001805" startTime="2026-07-14T10:37:56.6905794+03:00" endTime="2026-07-14T10:37:56.6906388+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="90b556bc-5ab0-4b37-aecb-a29d0418d511" />
+    <UnitTestResult executionId="49213aa7-c519-49eb-84d6-3230f62e0a49" testId="c977215c-49a7-f9c2-e871-a55736d718d4" testName="AIN.Visitors.Mrz.Tests.MrzComprehensiveTests.Parse_OptionalDataHandling_ShouldExtractWhenPresent" computerName="KHALID-WALEED" duration="00:00:00.0046613" startTime="2026-07-14T10:37:56.6083985+03:00" endTime="2026-07-14T10:37:56.6085126+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="49213aa7-c519-49eb-84d6-3230f62e0a49" />
+    <UnitTestResult executionId="8825a563-a0a8-4dc0-a6e2-b174cd87ec97" testId="fede1adb-132f-1b8c-59c8-187e163c62f6" testName="AIN.Visitors.Mrz.Tests.MrzComprehensiveTests.Parse_InvalidSexMarker_ShouldRejectCharacter" computerName="KHALID-WALEED" duration="00:00:00.0003879" startTime="2026-07-14T10:37:56.6099763+03:00" endTime="2026-07-14T10:37:56.6100829+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8825a563-a0a8-4dc0-a6e2-b174cd87ec97" />
+    <UnitTestResult executionId="a29ba9d8-cb15-42e3-8a67-6c954d60cd3c" testId="ec05f0bb-a6cd-3006-d3f9-b590f5a4db87" testName="AIN.Visitors.Mrz.Tests.MrzComprehensiveTests.Parse_DeterministicOutput_SameInputProducesIdenticalOutput" computerName="KHALID-WALEED" duration="00:00:00.1559588" startTime="2026-07-14T10:37:56.6159256+03:00" endTime="2026-07-14T10:37:56.6886925+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a29ba9d8-cb15-42e3-8a67-6c954d60cd3c" />
+    <UnitTestResult executionId="10bd4421-e7c4-458b-9e14-0e69a3bc5b67" testId="2d4fe603-bc07-edfc-d761-e9d7c01f262e" testName="AIN.Visitors.Mrz.Tests.MrzComprehensiveTests.Parse_InvalidDocumentNumberCheckDigit_ShouldReturnSpecificError" computerName="KHALID-WALEED" duration="00:00:00.0004361" startTime="2026-07-14T10:37:56.6091807+03:00" endTime="2026-07-14T10:37:56.6092892+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="10bd4421-e7c4-458b-9e14-0e69a3bc5b67" />
+    <UnitTestResult executionId="fb8b91b6-d935-45fe-a94c-3189a02f3ce7" testId="41fa648c-4529-27a4-4bfd-ccaeb067afaf" testName="AIN.Visitors.Mrz.Tests.MrzComprehensiveTests.Parse_InvalidBirthDateCheckDigit_ShouldFailValidation" computerName="KHALID-WALEED" duration="00:00:00.0001257" startTime="2026-07-14T10:37:56.6930841+03:00" endTime="2026-07-14T10:37:56.6931481+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fb8b91b6-d935-45fe-a94c-3189a02f3ce7" />
+    <UnitTestResult executionId="d670c0fe-a2df-4e63-a88e-88155c3b200c" testId="2399af70-10f8-5ada-7d5e-eb73723be707" testName="AIN.Visitors.Mrz.Tests.MrzComprehensiveTests.Parse_ValidTd3_ShouldBeValidAndExtractNames" computerName="KHALID-WALEED" duration="00:00:00.0001985" startTime="2026-07-14T10:37:56.6928520+03:00" endTime="2026-07-14T10:37:56.6929113+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d670c0fe-a2df-4e63-a88e-88155c3b200c" />
+    <UnitTestResult executionId="97867dac-5ea2-46f8-a147-02abe8508fea" testId="fe4c0789-dfb4-74cb-59cd-b087e2cfd94a" testName="AIN.Visitors.Mrz.Tests.MrzComprehensiveTests.Parse_LongOrTruncatedNames_ShouldExtractWithoutOverflow" computerName="KHALID-WALEED" duration="00:00:00.0002348" startTime="2026-07-14T10:37:56.6898128+03:00" endTime="2026-07-14T10:37:56.6899180+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="97867dac-5ea2-46f8-a147-02abe8508fea" />
+    <UnitTestResult executionId="0c7dd962-6abb-4206-a0d9-d648fd7855e8" testId="7313efab-f247-a564-b687-00ebded39136" testName="AIN.Visitors.Mrz.Tests.MrzComprehensiveTests.Parse_InvalidLineLength_ShouldFail" computerName="KHALID-WALEED" duration="00:00:00.0002073" startTime="2026-07-14T10:37:56.6903485+03:00" endTime="2026-07-14T10:37:56.6904133+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0c7dd962-6abb-4206-a0d9-d648fd7855e8" />
+    <UnitTestResult executionId="d428ddc1-6d45-496b-9f3a-bc720f385e04" testId="5e90105c-a925-30f5-d75b-d7d84b6fde3d" testName="AIN.Visitors.Mrz.Tests.MrzComprehensiveTests.Parse_ExpiredDocument_ShouldFlagAsExpired" computerName="KHALID-WALEED" duration="00:00:00.0012655" startTime="2026-07-14T10:37:56.6079740+03:00" endTime="2026-07-14T10:37:56.6080980+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d428ddc1-6d45-496b-9f3a-bc720f385e04" />
+    <UnitTestResult executionId="74a46fe4-dc94-4f1c-86eb-ed0f8d5c9d82" testId="3823b19f-b7be-5e58-c452-e8dd7acb9179" testName="AIN.Visitors.Mrz.Tests.MrzComprehensiveTests.Parse_InvalidExpiryDateCheckDigit_ShouldFailValidation" computerName="KHALID-WALEED" duration="00:00:00.0001450" startTime="2026-07-14T10:37:56.6926075+03:00" endTime="2026-07-14T10:37:56.6926793+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="74a46fe4-dc94-4f1c-86eb-ed0f8d5c9d82" />
+    <UnitTestResult executionId="e9ba9a69-b07b-4fa4-9f6f-99e37d31c078" testId="a3d3c547-9e0a-0177-20de-eab88d2c5e63" testName="AIN.Visitors.Mrz.Tests.MrzComprehensiveTests.Parse_ContractVersionBehavior_ShouldIncludeVersionMetadata" computerName="KHALID-WALEED" duration="00:00:00.0005524" startTime="2026-07-14T10:37:56.6150319+03:00" endTime="2026-07-14T10:37:56.6152050+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e9ba9a69-b07b-4fa4-9f6f-99e37d31c078" />
+    <UnitTestResult executionId="fdf18215-90f3-45f5-9cb4-ee6901b2f821" testId="416bb94c-399b-ad61-c205-0c98bc9d4bca" testName="AIN.Visitors.Mrz.Tests.MrzComprehensiveTests.Parse_UnknownCountryCode_ShouldHandleGracefully" computerName="KHALID-WALEED" duration="00:00:00.0004763" startTime="2026-07-14T10:37:56.6923582+03:00" endTime="2026-07-14T10:37:56.6924285+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fdf18215-90f3-45f5-9cb4-ee6901b2f821" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="AIN.Visitors.Mrz.Tests.MrzComprehensiveTests.Parse_InvalidSexMarker_ShouldRejectCharacter" storage="c:\users\khaled\desktop\cas400\progect (ain )\ain.visitors.mrz.tests\bin\debug\net10.0\ain.visitors.mrz.tests.dll" id="fede1adb-132f-1b8c-59c8-187e163c62f6">
+      <Execution id="8825a563-a0a8-4dc0-a6e2-b174cd87ec97" />
+      <TestMethod codeBase="C:\Users\khaled\Desktop\cas400\progect (ain )\AIN.Visitors.Mrz.Tests\bin\Debug\net10.0\AIN.Visitors.Mrz.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="AIN.Visitors.Mrz.Tests.MrzComprehensiveTests" name="Parse_InvalidSexMarker_ShouldRejectCharacter" />
+    </UnitTest>
+    <UnitTest name="AIN.Visitors.Mrz.Tests.MrzComprehensiveTests.Parse_UnknownCountryCode_ShouldHandleGracefully" storage="c:\users\khaled\desktop\cas400\progect (ain )\ain.visitors.mrz.tests\bin\debug\net10.0\ain.visitors.mrz.tests.dll" id="416bb94c-399b-ad61-c205-0c98bc9d4bca">
+      <Execution id="fdf18215-90f3-45f5-9cb4-ee6901b2f821" />
+      <TestMethod codeBase="C:\Users\khaled\Desktop\cas400\progect (ain )\AIN.Visitors.Mrz.Tests\bin\Debug\net10.0\AIN.Visitors.Mrz.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="AIN.Visitors.Mrz.Tests.MrzComprehensiveTests" name="Parse_UnknownCountryCode_ShouldHandleGracefully" />
+    </UnitTest>
+    <UnitTest name="AIN.Visitors.Mrz.Tests.MrzComprehensiveTests.Parse_ExpiredDocument_ShouldFlagAsExpired" storage="c:\users\khaled\desktop\cas400\progect (ain )\ain.visitors.mrz.tests\bin\debug\net10.0\ain.visitors.mrz.tests.dll" id="5e90105c-a925-30f5-d75b-d7d84b6fde3d">
+      <Execution id="d428ddc1-6d45-496b-9f3a-bc720f385e04" />
+      <TestMethod codeBase="C:\Users\khaled\Desktop\cas400\progect (ain )\AIN.Visitors.Mrz.Tests\bin\Debug\net10.0\AIN.Visitors.Mrz.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="AIN.Visitors.Mrz.Tests.MrzComprehensiveTests" name="Parse_ExpiredDocument_ShouldFlagAsExpired" />
+    </UnitTest>
+    <UnitTest name="AIN.Visitors.Mrz.Tests.MrzComprehensiveTests.Parse_LongOrTruncatedNames_ShouldExtractWithoutOverflow" storage="c:\users\khaled\desktop\cas400\progect (ain )\ain.visitors.mrz.tests\bin\debug\net10.0\ain.visitors.mrz.tests.dll" id="fe4c0789-dfb4-74cb-59cd-b087e2cfd94a">
+      <Execution id="97867dac-5ea2-46f8-a147-02abe8508fea" />
+      <TestMethod codeBase="C:\Users\khaled\Desktop\cas400\progect (ain )\AIN.Visitors.Mrz.Tests\bin\Debug\net10.0\AIN.Visitors.Mrz.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="AIN.Visitors.Mrz.Tests.MrzComprehensiveTests" name="Parse_LongOrTruncatedNames_ShouldExtractWithoutOverflow" />
+    </UnitTest>
+    <UnitTest name="AIN.Visitors.Mrz.Tests.MrzComprehensiveTests.Parse_InvalidLineCount_ShouldFail" storage="c:\users\khaled\desktop\cas400\progect (ain )\ain.visitors.mrz.tests\bin\debug\net10.0\ain.visitors.mrz.tests.dll" id="c0170732-d07d-4f55-4b00-becb20d0186d">
+      <Execution id="90b556bc-5ab0-4b37-aecb-a29d0418d511" />
+      <TestMethod codeBase="C:\Users\khaled\Desktop\cas400\progect (ain )\AIN.Visitors.Mrz.Tests\bin\Debug\net10.0\AIN.Visitors.Mrz.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="AIN.Visitors.Mrz.Tests.MrzComprehensiveTests" name="Parse_InvalidLineCount_ShouldFail" />
+    </UnitTest>
+    <UnitTest name="AIN.Visitors.Mrz.Tests.MrzComprehensiveTests.Parse_FillerHandling_ShouldStripFillersCorrectly" storage="c:\users\khaled\desktop\cas400\progect (ain )\ain.visitors.mrz.tests\bin\debug\net10.0\ain.visitors.mrz.tests.dll" id="bb9a39d4-bf76-034b-8c33-744178c3eb96">
+      <Execution id="7a0ef92e-a940-4e62-9793-0eba41809772" />
+      <TestMethod codeBase="C:\Users\khaled\Desktop\cas400\progect (ain )\AIN.Visitors.Mrz.Tests\bin\Debug\net10.0\AIN.Visitors.Mrz.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="AIN.Visitors.Mrz.Tests.MrzComprehensiveTests" name="Parse_FillerHandling_ShouldStripFillersCorrectly" />
+    </UnitTest>
+    <UnitTest name="AIN.Visitors.Mrz.Tests.MrzComprehensiveTests.Parse_InvalidBirthDateCheckDigit_ShouldFailValidation" storage="c:\users\khaled\desktop\cas400\progect (ain )\ain.visitors.mrz.tests\bin\debug\net10.0\ain.visitors.mrz.tests.dll" id="41fa648c-4529-27a4-4bfd-ccaeb067afaf">
+      <Execution id="fb8b91b6-d935-45fe-a94c-3189a02f3ce7" />
+      <TestMethod codeBase="C:\Users\khaled\Desktop\cas400\progect (ain )\AIN.Visitors.Mrz.Tests\bin\Debug\net10.0\AIN.Visitors.Mrz.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="AIN.Visitors.Mrz.Tests.MrzComprehensiveTests" name="Parse_InvalidBirthDateCheckDigit_ShouldFailValidation" />
+    </UnitTest>
+    <UnitTest name="AIN.Visitors.Mrz.Tests.MrzComprehensiveTests.Parse_SpacesInsideMrzLines_ShouldBeRejected" storage="c:\users\khaled\desktop\cas400\progect (ain )\ain.visitors.mrz.tests\bin\debug\net10.0\ain.visitors.mrz.tests.dll" id="1d298a72-17d0-f2ba-36a5-6e5a82ba8d42">
+      <Execution id="74dea55c-abec-403f-b84e-2e532885e1b8" />
+      <TestMethod codeBase="C:\Users\khaled\Desktop\cas400\progect (ain )\AIN.Visitors.Mrz.Tests\bin\Debug\net10.0\AIN.Visitors.Mrz.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="AIN.Visitors.Mrz.Tests.MrzComprehensiveTests" name="Parse_SpacesInsideMrzLines_ShouldBeRejected" />
+    </UnitTest>
+    <UnitTest name="AIN.Visitors.Mrz.Tests.MrzComprehensiveTests.Parse_ImpossibleExpiryDate_ShouldRejectDocument" storage="c:\users\khaled\desktop\cas400\progect (ain )\ain.visitors.mrz.tests\bin\debug\net10.0\ain.visitors.mrz.tests.dll" id="42d9ead0-8cdd-9105-2b2a-beb2c469ed7b">
+      <Execution id="dd3cf410-1d50-41f0-9666-13b9d9a2902d" />
+      <TestMethod codeBase="C:\Users\khaled\Desktop\cas400\progect (ain )\AIN.Visitors.Mrz.Tests\bin\Debug\net10.0\AIN.Visitors.Mrz.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="AIN.Visitors.Mrz.Tests.MrzComprehensiveTests" name="Parse_ImpossibleExpiryDate_ShouldRejectDocument" />
+    </UnitTest>
+    <UnitTest name="AIN.Visitors.Mrz.Tests.MrzComprehensiveTests.Parse_ValidTd3_ShouldBeValidAndExtractNames" storage="c:\users\khaled\desktop\cas400\progect (ain )\ain.visitors.mrz.tests\bin\debug\net10.0\ain.visitors.mrz.tests.dll" id="2399af70-10f8-5ada-7d5e-eb73723be707">
+      <Execution id="d670c0fe-a2df-4e63-a88e-88155c3b200c" />
+      <TestMethod codeBase="C:\Users\khaled\Desktop\cas400\progect (ain )\AIN.Visitors.Mrz.Tests\bin\Debug\net10.0\AIN.Visitors.Mrz.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="AIN.Visitors.Mrz.Tests.MrzComprehensiveTests" name="Parse_ValidTd3_ShouldBeValidAndExtractNames" />
+    </UnitTest>
+    <UnitTest name="AIN.Visitors.Mrz.Tests.MrzComprehensiveTests.Parse_InvalidExpiryDateCheckDigit_ShouldFailValidation" storage="c:\users\khaled\desktop\cas400\progect (ain )\ain.visitors.mrz.tests\bin\debug\net10.0\ain.visitors.mrz.tests.dll" id="3823b19f-b7be-5e58-c452-e8dd7acb9179">
+      <Execution id="74a46fe4-dc94-4f1c-86eb-ed0f8d5c9d82" />
+      <TestMethod codeBase="C:\Users\khaled\Desktop\cas400\progect (ain )\AIN.Visitors.Mrz.Tests\bin\Debug\net10.0\AIN.Visitors.Mrz.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="AIN.Visitors.Mrz.Tests.MrzComprehensiveTests" name="Parse_InvalidExpiryDateCheckDigit_ShouldFailValidation" />
+    </UnitTest>
+    <UnitTest name="AIN.Visitors.Mrz.Tests.MrzComprehensiveTests.Parse_InvalidCompositeCheckDigit_ShouldFailOverallValidation" storage="c:\users\khaled\desktop\cas400\progect (ain )\ain.visitors.mrz.tests\bin\debug\net10.0\ain.visitors.mrz.tests.dll" id="f5df0a67-f5f5-7f56-8f86-69ed5cae285f">
+      <Execution id="7fa07dd8-9294-4d4e-a69b-692d9603e6ee" />
+      <TestMethod codeBase="C:\Users\khaled\Desktop\cas400\progect (ain )\AIN.Visitors.Mrz.Tests\bin\Debug\net10.0\AIN.Visitors.Mrz.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="AIN.Visitors.Mrz.Tests.MrzComprehensiveTests" name="Parse_InvalidCompositeCheckDigit_ShouldFailOverallValidation" />
+    </UnitTest>
+    <UnitTest name="AIN.Visitors.Mrz.Tests.MrzComprehensiveTests.Parse_LowercaseCharacters_ShouldBeRejectedOrConverted" storage="c:\users\khaled\desktop\cas400\progect (ain )\ain.visitors.mrz.tests\bin\debug\net10.0\ain.visitors.mrz.tests.dll" id="f19e933b-7343-cc84-5589-8ca61e656d55">
+      <Execution id="dc169e20-64e1-4126-86ac-bbe9dd3144f1" />
+      <TestMethod codeBase="C:\Users\khaled\Desktop\cas400\progect (ain )\AIN.Visitors.Mrz.Tests\bin\Debug\net10.0\AIN.Visitors.Mrz.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="AIN.Visitors.Mrz.Tests.MrzComprehensiveTests" name="Parse_LowercaseCharacters_ShouldBeRejectedOrConverted" />
+    </UnitTest>
+    <UnitTest name="AIN.Visitors.Mrz.Tests.MrzComprehensiveTests.Parse_ValidTd1_ShouldBeValidAndExtractDocumentNumber" storage="c:\users\khaled\desktop\cas400\progect (ain )\ain.visitors.mrz.tests\bin\debug\net10.0\ain.visitors.mrz.tests.dll" id="46c3c226-d201-5a9e-52c4-fec5e7dcf662">
+      <Execution id="fe4da0da-e15d-4175-9ddd-76fae2961f3d" />
+      <TestMethod codeBase="C:\Users\khaled\Desktop\cas400\progect (ain )\AIN.Visitors.Mrz.Tests\bin\Debug\net10.0\AIN.Visitors.Mrz.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="AIN.Visitors.Mrz.Tests.MrzComprehensiveTests" name="Parse_ValidTd1_ShouldBeValidAndExtractDocumentNumber" />
+    </UnitTest>
+    <UnitTest name="AIN.Visitors.Mrz.Tests.MrzComprehensiveTests.Parse_InvalidLineLength_ShouldFail" storage="c:\users\khaled\desktop\cas400\progect (ain )\ain.visitors.mrz.tests\bin\debug\net10.0\ain.visitors.mrz.tests.dll" id="7313efab-f247-a564-b687-00ebded39136">
+      <Execution id="0c7dd962-6abb-4206-a0d9-d648fd7855e8" />
+      <TestMethod codeBase="C:\Users\khaled\Desktop\cas400\progect (ain )\AIN.Visitors.Mrz.Tests\bin\Debug\net10.0\AIN.Visitors.Mrz.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="AIN.Visitors.Mrz.Tests.MrzComprehensiveTests" name="Parse_InvalidLineLength_ShouldFail" />
+    </UnitTest>
+    <UnitTest name="AIN.Visitors.Mrz.Tests.MrzComprehensiveTests.Parse_MissingNameSeparators_ShouldHandleCorrectly" storage="c:\users\khaled\desktop\cas400\progect (ain )\ain.visitors.mrz.tests\bin\debug\net10.0\ain.visitors.mrz.tests.dll" id="9152a88f-a73f-a023-9eba-3450012d1360">
+      <Execution id="e40b4804-1481-42bd-9f65-d5174b8b57ff" />
+      <TestMethod codeBase="C:\Users\khaled\Desktop\cas400\progect (ain )\AIN.Visitors.Mrz.Tests\bin\Debug\net10.0\AIN.Visitors.Mrz.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="AIN.Visitors.Mrz.Tests.MrzComprehensiveTests" name="Parse_MissingNameSeparators_ShouldHandleCorrectly" />
+    </UnitTest>
+    <UnitTest name="AIN.Visitors.Mrz.Tests.MrzComprehensiveTests.Parse_ValidTd2_ShouldBeValidAndExtractNationality" storage="c:\users\khaled\desktop\cas400\progect (ain )\ain.visitors.mrz.tests\bin\debug\net10.0\ain.visitors.mrz.tests.dll" id="6f967855-a5bf-34bd-c5af-67e64728a4a1">
+      <Execution id="cb02e587-fe43-4a95-887c-6b85d3ab5536" />
+      <TestMethod codeBase="C:\Users\khaled\Desktop\cas400\progect (ain )\AIN.Visitors.Mrz.Tests\bin\Debug\net10.0\AIN.Visitors.Mrz.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="AIN.Visitors.Mrz.Tests.MrzComprehensiveTests" name="Parse_ValidTd2_ShouldBeValidAndExtractNationality" />
+    </UnitTest>
+    <UnitTest name="AIN.Visitors.Mrz.Tests.MrzComprehensiveTests.Parse_IllegalCharacters_ShouldNotBeTreatedAsZeroOrFiller" storage="c:\users\khaled\desktop\cas400\progect (ain )\ain.visitors.mrz.tests\bin\debug\net10.0\ain.visitors.mrz.tests.dll" id="05b331ed-f32a-194f-e4ed-79d87418a658">
+      <Execution id="8e29d36d-8c2a-4bfb-b159-86780c9eab63" />
+      <TestMethod codeBase="C:\Users\khaled\Desktop\cas400\progect (ain )\AIN.Visitors.Mrz.Tests\bin\Debug\net10.0\AIN.Visitors.Mrz.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="AIN.Visitors.Mrz.Tests.MrzComprehensiveTests" name="Parse_IllegalCharacters_ShouldNotBeTreatedAsZeroOrFiller" />
+    </UnitTest>
+    <UnitTest name="AIN.Visitors.Mrz.Tests.MrzComprehensiveTests.Parse_ImpossibleBirthDate_ShouldRejectDocument" storage="c:\users\khaled\desktop\cas400\progect (ain )\ain.visitors.mrz.tests\bin\debug\net10.0\ain.visitors.mrz.tests.dll" id="10521011-77bd-aff9-967e-8cf806791121">
+      <Execution id="6cab2c6b-26d3-4a4c-8dad-9ea41404f495" />
+      <TestMethod codeBase="C:\Users\khaled\Desktop\cas400\progect (ain )\AIN.Visitors.Mrz.Tests\bin\Debug\net10.0\AIN.Visitors.Mrz.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="AIN.Visitors.Mrz.Tests.MrzComprehensiveTests" name="Parse_ImpossibleBirthDate_ShouldRejectDocument" />
+    </UnitTest>
+    <UnitTest name="AIN.Visitors.Mrz.Tests.MrzComprehensiveTests.Parse_ContractVersionBehavior_ShouldIncludeVersionMetadata" storage="c:\users\khaled\desktop\cas400\progect (ain )\ain.visitors.mrz.tests\bin\debug\net10.0\ain.visitors.mrz.tests.dll" id="a3d3c547-9e0a-0177-20de-eab88d2c5e63">
+      <Execution id="e9ba9a69-b07b-4fa4-9f6f-99e37d31c078" />
+      <TestMethod codeBase="C:\Users\khaled\Desktop\cas400\progect (ain )\AIN.Visitors.Mrz.Tests\bin\Debug\net10.0\AIN.Visitors.Mrz.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="AIN.Visitors.Mrz.Tests.MrzComprehensiveTests" name="Parse_ContractVersionBehavior_ShouldIncludeVersionMetadata" />
+    </UnitTest>
+    <UnitTest name="AIN.Visitors.Mrz.Tests.MrzComprehensiveTests.Parse_DeterministicOutput_SameInputProducesIdenticalOutput" storage="c:\users\khaled\desktop\cas400\progect (ain )\ain.visitors.mrz.tests\bin\debug\net10.0\ain.visitors.mrz.tests.dll" id="ec05f0bb-a6cd-3006-d3f9-b590f5a4db87">
+      <Execution id="a29ba9d8-cb15-42e3-8a67-6c954d60cd3c" />
+      <TestMethod codeBase="C:\Users\khaled\Desktop\cas400\progect (ain )\AIN.Visitors.Mrz.Tests\bin\Debug\net10.0\AIN.Visitors.Mrz.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="AIN.Visitors.Mrz.Tests.MrzComprehensiveTests" name="Parse_DeterministicOutput_SameInputProducesIdenticalOutput" />
+    </UnitTest>
+    <UnitTest name="AIN.Visitors.Mrz.Tests.MrzComprehensiveTests.Parse_OptionalDataHandling_ShouldExtractWhenPresent" storage="c:\users\khaled\desktop\cas400\progect (ain )\ain.visitors.mrz.tests\bin\debug\net10.0\ain.visitors.mrz.tests.dll" id="c977215c-49a7-f9c2-e871-a55736d718d4">
+      <Execution id="49213aa7-c519-49eb-84d6-3230f62e0a49" />
+      <TestMethod codeBase="C:\Users\khaled\Desktop\cas400\progect (ain )\AIN.Visitors.Mrz.Tests\bin\Debug\net10.0\AIN.Visitors.Mrz.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="AIN.Visitors.Mrz.Tests.MrzComprehensiveTests" name="Parse_OptionalDataHandling_ShouldExtractWhenPresent" />
+    </UnitTest>
+    <UnitTest name="AIN.Visitors.Mrz.Tests.MrzComprehensiveTests.Parse_InvalidDocumentNumberCheckDigit_ShouldReturnSpecificError" storage="c:\users\khaled\desktop\cas400\progect (ain )\ain.visitors.mrz.tests\bin\debug\net10.0\ain.visitors.mrz.tests.dll" id="2d4fe603-bc07-edfc-d761-e9d7c01f262e">
+      <Execution id="10bd4421-e7c4-458b-9e14-0e69a3bc5b67" />
+      <TestMethod codeBase="C:\Users\khaled\Desktop\cas400\progect (ain )\AIN.Visitors.Mrz.Tests\bin\Debug\net10.0\AIN.Visitors.Mrz.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="AIN.Visitors.Mrz.Tests.MrzComprehensiveTests" name="Parse_InvalidDocumentNumberCheckDigit_ShouldReturnSpecificError" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="46c3c226-d201-5a9e-52c4-fec5e7dcf662" executionId="fe4da0da-e15d-4175-9ddd-76fae2961f3d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f19e933b-7343-cc84-5589-8ca61e656d55" executionId="dc169e20-64e1-4126-86ac-bbe9dd3144f1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="42d9ead0-8cdd-9105-2b2a-beb2c469ed7b" executionId="dd3cf410-1d50-41f0-9666-13b9d9a2902d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="10521011-77bd-aff9-967e-8cf806791121" executionId="6cab2c6b-26d3-4a4c-8dad-9ea41404f495" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bb9a39d4-bf76-034b-8c33-744178c3eb96" executionId="7a0ef92e-a940-4e62-9793-0eba41809772" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1d298a72-17d0-f2ba-36a5-6e5a82ba8d42" executionId="74dea55c-abec-403f-b84e-2e532885e1b8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6f967855-a5bf-34bd-c5af-67e64728a4a1" executionId="cb02e587-fe43-4a95-887c-6b85d3ab5536" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f5df0a67-f5f5-7f56-8f86-69ed5cae285f" executionId="7fa07dd8-9294-4d4e-a69b-692d9603e6ee" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="05b331ed-f32a-194f-e4ed-79d87418a658" executionId="8e29d36d-8c2a-4bfb-b159-86780c9eab63" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9152a88f-a73f-a023-9eba-3450012d1360" executionId="e40b4804-1481-42bd-9f65-d5174b8b57ff" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c0170732-d07d-4f55-4b00-becb20d0186d" executionId="90b556bc-5ab0-4b37-aecb-a29d0418d511" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c977215c-49a7-f9c2-e871-a55736d718d4" executionId="49213aa7-c519-49eb-84d6-3230f62e0a49" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fede1adb-132f-1b8c-59c8-187e163c62f6" executionId="8825a563-a0a8-4dc0-a6e2-b174cd87ec97" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ec05f0bb-a6cd-3006-d3f9-b590f5a4db87" executionId="a29ba9d8-cb15-42e3-8a67-6c954d60cd3c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2d4fe603-bc07-edfc-d761-e9d7c01f262e" executionId="10bd4421-e7c4-458b-9e14-0e69a3bc5b67" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="41fa648c-4529-27a4-4bfd-ccaeb067afaf" executionId="fb8b91b6-d935-45fe-a94c-3189a02f3ce7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2399af70-10f8-5ada-7d5e-eb73723be707" executionId="d670c0fe-a2df-4e63-a88e-88155c3b200c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fe4c0789-dfb4-74cb-59cd-b087e2cfd94a" executionId="97867dac-5ea2-46f8-a147-02abe8508fea" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7313efab-f247-a564-b687-00ebded39136" executionId="0c7dd962-6abb-4206-a0d9-d648fd7855e8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5e90105c-a925-30f5-d75b-d7d84b6fde3d" executionId="d428ddc1-6d45-496b-9f3a-bc720f385e04" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3823b19f-b7be-5e58-c452-e8dd7acb9179" executionId="74a46fe4-dc94-4f1c-86eb-ed0f8d5c9d82" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a3d3c547-9e0a-0177-20de-eab88d2c5e63" executionId="e9ba9a69-b07b-4fa4-9f6f-99e37d31c078" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="416bb94c-399b-ad61-c205-0c98bc9d4bca" executionId="fdf18215-90f3-45f5-9cb4-ee6901b2f821" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="23" executed="23" passed="23" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.01] xUnit.net VSTest Adapter v3.1.4+50e68bbb8b (64-bit .NET 10.0.9)&#xD;
+[xUnit.net 00:00:00.34]   Discovering: AIN.Visitors.Mrz.Tests&#xD;
+[xUnit.net 00:00:00.50]   Discovered:  AIN.Visitors.Mrz.Tests&#xD;
+[xUnit.net 00:00:00.63]   Starting:    AIN.Visitors.Mrz.Tests&#xD;
+     Warning:&#xD;
+     The component "Fluent Assertions" is governed by the rules defined in the Xceed License Agreement and&#xD;
+     the Xceed Fluent Assertions Community License. You may use Fluent Assertions free of charge for&#xD;
+     non-commercial use only. An active subscription is required to use Fluent Assertions for commercial use.&#xD;
+     Please contact Xceed Sales mailto:sales@xceed.com to acquire a subscription at a very low cost.&#xD;
+     A paid commercial license supports the development and continued increasing support of&#xD;
+     Fluent Assertions users under both commercial and community licenses. Help us&#xD;
+     keep Fluent Assertions at the forefront of unit testing.&#xD;
+     For more information, visit https://xceed.com/products/unit-testing/fluent-assertions/&#xD;
+[xUnit.net 00:00:01.31]   Finished:    AIN.Visitors.Mrz.Tests&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>

@@ -1,0 +1,52 @@
+==============================================
+TD1
+==============================================
+# BAD-02 — TD1 — Wrong final (composite) check digit
+I<SWEXA00000023<<<<<<<<<<<<<<<
+8208215F3001019SWE<<<<<<<<<<<0
+SPECIMEN<<SVEA<<<<<<<<<<<<<<<<
+
+# BAD-04 — TD1 — Line 1 too short (29 chars instead of 30)
+IDD<<T220001293<<<<<<<<<<<<<<
+8807124M3101012D<<<<<<<<<<<<<0
+MUSTERMANN<<ERIKA<<<<<<<<<<<<<
+
+# BAD-07 — TD1 — Invalid sex value ("9")
+IDCHES1A00D27<7<<<<<<<<<<<<<<<
+950801593302026CHE<<<<<<<<<<<2
+SCHWEIZER<<HELVETIA<<<<<<<<<<<
+
+# BAD-10 — TD1 — Missing name separator (single < instead of <<)
+IDD<<T220001293<<<<<<<<<<<<<<<
+8807124M3101012D<<<<<<<<<<<<<0
+MUSTERMANN<ERIKA<<<<<<<<<<<<<<
+
+==============================================
+TD2
+==============================================
+# BAD-05 — TD2 — Unknown country code (XZZ) - Only CheckDigit Validated Here
+I<XZZPOPESCU<<ANDREI<ION<<<<<<<<<<<<
+ZZ00012348ROU9005204M3005202<<<<<<<4
+
+# BAD-09 — TD2 — Wrong filler (space instead of <)
+I MDALUPU<<ELENA<<<<<<<<<<<<<<<<<<<<
+A012345678MDA9311309F2901019<<<<<<<2
+
+==============================================
+TD3
+==============================================
+# BAD-01 — TD3 — Wrong check digit on passport number
+P<INDSPECIMEN<<KUMAR<G<<<<<<<<<<<<<<<<<<<<<<
+Z9999999<1IND8505246M3001019<<<<<<<<<<<<<<08
+
+# BAD-03 — TD3 — Impossible date of birth (month 13)
+P<UTOERIKSSON<<ANNA<MARIA<<<<<<<<<<<<<<<<<<<
+L898902C36UTO7413122F3004157<<<<<<<<<<<<<<04
+
+# BAD-06 — TD3 — Illegal character in name (lowercase "c")
+P<USASPEcIMEN<<JOHN<PAUL<<<<<<<<<<<<<<<<<<<<
+T012345671USA9102158M3002153<<<<<<<<<<<<<<02
+
+# BAD-08 — TD3 — Expired document
+P<USASPECIMEN<<JOHN<PAUL<<<<<<<<<<<<<<<<<<<<
+T012345671USA9102158M2002156<<<<<<<<<<<<<<04
