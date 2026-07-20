@@ -14,20 +14,21 @@ namespace AIN.Visitors.Demo
 
             Console.WriteLine("\n[System] UI is waiting for user to insert document...\n");
 
-            using var document = await scanner.ScanAsync();
+            var document = await scanner.ScanAsync();
 
             if (document != null && document.IsSuccess)
             {
                 Console.WriteLine("\n=== Extracted Document Data ===");
-                Console.WriteLine($"Name (EN): {document.FullNameEnglish}");
-                Console.WriteLine($"Name (AR): {document.FullNameArabic}");
-                Console.WriteLine($"National ID: {document.NationalID}");
-                Console.WriteLine($"Raw MRZ:\n{document.RawMrzData}");
+                Console.WriteLine($"Surname: {document.Data?.Surname}");
+                Console.WriteLine($"Given Names: {document.Data?.GivenNames}");
+                Console.WriteLine($"Document Number: {document.Data?.DocumentNumber}");
+                Console.WriteLine($"Nationality: {document.Data?.Nationality}");
+                Console.WriteLine($"Validation Status: {document.Evidence?.ValidationStatus}");
                 Console.WriteLine("===============================\n");
             }
             else
             {
-                Console.WriteLine("Failed to scan document.");
+                Console.WriteLine("Failed to scan document or validation failed.");
             }
         }
     }
