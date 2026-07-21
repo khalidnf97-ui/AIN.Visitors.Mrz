@@ -40,14 +40,8 @@ namespace AIN.Visitors.Mrz.Helpers
             return (char)('0' + remainder);
         }
 
-        /// <summary>
-        /// الاسم الطويل للدالة (لتوفير التوافق الخلفي).
-        /// </summary>
         public static char CalculateCheckDigit(ReadOnlySpan<char> input) => Calculate(input);
 
-        /// <summary>
-        /// التحقق من مطابقة رقم التحقق المحسوب مع الرقم الموجود في المستند.
-        /// </summary>
         public static bool Verify(ReadOnlySpan<char> input, char expectedCheckDigit)
         {
             try

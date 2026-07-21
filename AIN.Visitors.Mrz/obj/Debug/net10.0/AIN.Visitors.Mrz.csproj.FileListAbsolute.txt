@@ -1,0 +1,12 @@
+C:\Users\khaled\Desktop\cas400\progect (ain )\AIN.Visitors.Mrz\bin\Debug\net10.0\AIN.Visitors.Mrz.deps.json
+C:\Users\khaled\Desktop\cas400\progect (ain )\AIN.Visitors.Mrz\bin\Debug\net10.0\AIN.Visitors.Mrz.dll
+C:\Users\khaled\Desktop\cas400\progect (ain )\AIN.Visitors.Mrz\bin\Debug\net10.0\AIN.Visitors.Mrz.pdb
+C:\Users\khaled\Desktop\cas400\progect (ain )\AIN.Visitors.Mrz\obj\Debug\net10.0\AIN.Visitors.Mrz.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\khaled\Desktop\cas400\progect (ain )\AIN.Visitors.Mrz\obj\Debug\net10.0\AIN.Visitors.Mrz.AssemblyInfoInputs.cache
+C:\Users\khaled\Desktop\cas400\progect (ain )\AIN.Visitors.Mrz\obj\Debug\net10.0\AIN.Visitors.Mrz.AssemblyInfo.cs
+C:\Users\khaled\Desktop\cas400\progect (ain )\AIN.Visitors.Mrz\obj\Debug\net10.0\AIN.Visitors.Mrz.csproj.CoreCompileInputs.cache
+C:\Users\khaled\Desktop\cas400\progect (ain )\AIN.Visitors.Mrz\obj\Debug\net10.0\AIN.Visitors.Mrz.sourcelink.json
+C:\Users\khaled\Desktop\cas400\progect (ain )\AIN.Visitors.Mrz\obj\Debug\net10.0\AIN.Visitors.Mrz.dll
+C:\Users\khaled\Desktop\cas400\progect (ain )\AIN.Visitors.Mrz\obj\Debug\net10.0\refint\AIN.Visitors.Mrz.dll
+C:\Users\khaled\Desktop\cas400\progect (ain )\AIN.Visitors.Mrz\obj\Debug\net10.0\AIN.Visitors.Mrz.pdb
+C:\Users\khaled\Desktop\cas400\progect (ain )\AIN.Visitors.Mrz\obj\Debug\net10.0\ref\AIN.Visitors.Mrz.dll

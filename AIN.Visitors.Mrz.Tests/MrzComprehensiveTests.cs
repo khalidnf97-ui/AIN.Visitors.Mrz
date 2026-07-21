@@ -12,9 +12,9 @@ namespace AIN.Visitors.Mrz.Tests
         public async Task Test_Success_Scenario()
         {
             var mockScanner = new MockDocumentScanner();
-            var result = await mockScanner.ScanAsync();
+            using var result = await mockScanner.ScanAsync();
             Assert.NotNull(result);
-            Assert.NotNull(result.RawData);
+            Assert.NotNull(result.Data);
         }
 
         [Fact]
@@ -33,18 +33,17 @@ namespace AIN.Visitors.Mrz.Tests
 
             mockScanner.Scenario = MockScenario.Cancellation;
             await Assert.ThrowsAsync<OperationCanceledException>(() => mockScanner.ScanAsync());
-        } // تم إغلاق هذا التابع بقوس صحيح
+        }
 
         [Fact]
         public async Task Test_Invalid_Mrz_Scenario()
         {
             var mockScanner = new MockDocumentScanner();
             mockScanner.Scenario = MockScenario.InvalidMrz;
-            var result = await mockScanner.ScanAsync();
+            using var result = await mockScanner.ScanAsync();
             
             Assert.NotNull(result);
-            Assert.NotNull(result.RawData);
-            Assert.Contains("INVALID", result.RawData.GetRawData());
-        } // تم إغلاق هذا التابع بقوس صحيح
+            Assert.Equal("Invalid", result.Evidence.ValidationStatus);
+        }
     }
 }

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "AIN.Visitors.Mrz/1.0.0": {
+        "runtime": {
+          "AIN.Visitors.Mrz.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AIN.Visitors.Mrz/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
